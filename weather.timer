@@ -1,0 +1,9 @@
+[Unit]
+Description=Measure weather stats periodically
+
+[Timer]
+OnUnitActiveSec=1h
+Persistent=true
+
+[Install]
+WantedBy=timers.target

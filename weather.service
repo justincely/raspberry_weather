@@ -1,0 +1,9 @@
+[Unit]
+Description=Measure weather
+
+[Service]
+TimeoutStartSec=0
+ExecStart=/usr/bin/python /home/pi/codebase/raspberry_weather/weather_script.py
+
+[Install]
+WantedBy=multi-user.target
